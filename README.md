@@ -1,8 +1,8 @@
-DUAL AXIS SOLAR TRACKER USING ARDUINO NANO
+**DUAL AXIS SOLAR TRACKER USING ARDUINO NANO**
 
 A dual axis solar tracker that adjusts its position according to the direction from which sunlight is received.
 
-Model/Methodology
+**Model/Methodology**
 
 ![Model](images/Model.png)
 
@@ -10,25 +10,25 @@ To sense the light four LDRs ( Light dependent resistor ) are used. They are fix
 of the whole system. 5V supply is given to both LDR and Servo motors from the Arduino.
 Model
 
-Model Circuit Diagram
+**Model Circuit Diagram**
 
 ![Circuit](images/Circuit.png)
 
-Components used
+**Components used**
 
 1. Arduino Uno
 2. LDR
 3. Micro Servo
 4. Resistors
 
-Working Mechanism
+**Working Mechanism**
 
 Based on the intensity of light, LDRs give signals to analog inputs of arduino. ADC in the arduino converts it to digital signals which makes the servos move. Servos are connected in two different positions, thereby dual axis rotation is possible.
 
-Algorithm
+**Algorithm**
 
 ![Algorithm](images/Algorithm.png)
 
-Hardware Setup/ experimental setup
+**Hardware Setup/ experimental setup**
 
 ![Hardware-setup](images/Hardware-setup.png)
